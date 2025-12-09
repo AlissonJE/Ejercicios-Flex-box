@@ -1,0 +1,28 @@
+nav ul{
+list-style: none;
+margin: 0;
+padding: 0;
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+background-color: rgb(206, 206, 206);
+padding: 20px;
+width: 200px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+a{
+background-color: white;
+text-decoration: none;
+color: black;
+padding: 5px;
+}
